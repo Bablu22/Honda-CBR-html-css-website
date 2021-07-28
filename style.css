@@ -24,4 +24,32 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Bebas Neue', cursive;
 }
 
+.all-btn{
+    background-color: #E76F51;
+    color: #ffff;
+    padding: 10px 24px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+/* ====== Header area ======= */
+header{
+    background-color: #264653;
+    width: 100%;
+    margin: auto;
+    color: white;
+}
+.nav-item{
+    margin-right: 36px;
+}
+.nav-link{
+    color: white !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+.banner-area h1{
+    letter-spacing: 3px;
+}
 
