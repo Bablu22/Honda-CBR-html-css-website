@@ -40,7 +40,15 @@ h1,h2,h3,h4,h5,h6{
     color: #E76F51;
     
 }
-
+.active-btn {
+    background-color: white !important;
+    border: 2px solid #E76F51;
+    color: #E76F51;
+}
+.active-btn:hover{
+    background-color: #E76F51 !important;
+    color: #ffff;
+}
 /* ====== Header area ======= */
 header{
     background-color: #264653;
@@ -90,4 +98,31 @@ header{
 }
 .feature-area .col:nth-child(odd):hover{
     filter: grayscale(0);
+}
+
+/* ========== Client section ======== */
+span{
+    color: #E76F51;
+}
+.client-area img{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+.client-area .card-star{
+    color: #E77C40;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* ========= FAq area ========= */
+.accordion .accordion-button {
+    background-color: #264653;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    border: none !important;
+    outline: none !important;
 }
