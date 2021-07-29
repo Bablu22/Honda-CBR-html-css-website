@@ -162,11 +162,27 @@ span{
     left: 50%;
     transform: translate(-50% , -50%);
     text-align: center;
-    z-index: 200;
+    z-index: 10000;
     cursor: pointer;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
 }
 .overlay i{
     color: tomato;
     font-size: 60px;
+}
+
+footer{
+     background-color: #0B0D17;
+     color: white;
+     padding: 80px 50px ;
+}
+footer img{
+    width: 138px;
+    display: block;
+    margin: 15px 0;
 }
